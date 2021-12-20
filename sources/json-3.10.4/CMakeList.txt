@@ -1,1 +1,1 @@
-add_executable(xml-reader xml-reader.cpp)
+add_executable(xml-reader json.hpp)
