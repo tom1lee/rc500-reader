@@ -1,7 +1,7 @@
 
 add_executable(nlohmann_json json.hpp)
 
-target_link_libraries(nlohmann_json
+target_link_libraries(json-3.10.4
 
 PUBLIC
 
