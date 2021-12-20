@@ -1,1 +1,1 @@
-add_executable(xml-reader json.hpp)
+add_executable(nlohmann_json json.hpp)
