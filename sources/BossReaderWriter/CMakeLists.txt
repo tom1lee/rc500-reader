@@ -1,4 +1,4 @@
-find_package(nlohmann_json 3.10.4 REQUIRED)
+
 
 
 add_library(BossReaderWriter
@@ -14,6 +14,10 @@ target_include_directories(BossReaderWriter
     PUBLIC
         $<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/sources>
 )
+
+
+set(CMAKE_MODULE_PATH "/json/;${CMAKE_MODULE_PATH}")
+find_package(nlohmann_json 3.10.4 REQUIRED)
 
 target_link_libraries(BossReaderWriter
     PUBLIC
