@@ -23,7 +23,7 @@ find_package(Qt6 REQUIRED)
 add_subdirectory(sources/BossReaderWriter)
 add_subdirectory(sources/BossRc500)
 add_subdirectory(sources/BossRc500-MemoryCopy)
-add_subdirectory(sources/json-3.10.4)
+add_subdirectory(sources/json)
 
 # Some widget examples to learn Qt
 add_subdirectory(sources/WidgetExamples)
