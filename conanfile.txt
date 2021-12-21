@@ -1,5 +1,6 @@
 [requires]
 inja/3.3.0
+json
 rapidxml/1.13
 qt/6.2.1
 
