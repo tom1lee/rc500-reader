@@ -16,7 +16,7 @@ if(NOT WIN32)
 endif()
 
 find_package(inja REQUIRED)
-find_package(nlohmann_json REQUIRED)
+find_package(json REQUIRED)
 find_package(rapidxml REQUIRED)
 find_package(Qt6 REQUIRED)
 
