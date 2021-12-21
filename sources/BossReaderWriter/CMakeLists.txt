@@ -1,7 +1,12 @@
+find_package(nlohmann_json 3.10.4 REQUIRED)
+
+
 add_library(BossReaderWriter
         BossReaderWriter.hpp
         BossReaderWriter.cpp
 )
+
+
 
 add_library(BossReaderWriter::BossReaderWriter ALIAS BossReaderWriter)
 
